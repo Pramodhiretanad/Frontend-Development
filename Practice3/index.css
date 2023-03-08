@@ -1,0 +1,54 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+Header{
+background-color: rgb(50, 16, 16);
+padding-bottom: 50px;
+}
+Header h3{
+color: white;
+}
+.main{
+ background-color: aqua;
+ height: 80vh;
+ padding: 3%;
+}
+.text{
+ border: 2px solid black;
+}
+p{
+ margin-left: 30%;
+ font-size: larger;
+ /* font-weight: bold; */
+}
+.face{
+ width: 250px;
+ height: 250px;
+ background-color: rgb(154, 250, 10);
+ /* border: 1px solid black; */
+ padding-top: 3%;
+ margin-left: 40%;
+}
+.Eye{
+ display: flex;
+ /* justify-content: space-around; */
+ gap: 120px;
+ padding-left: 34px;
+ 
+}
+.eye{
+ width: 30px;
+ height: 30px;
+ border-radius: 20px;
+ background-color: black;
+}
+.mouth{
+ width: 50%;
+ height: 30%;
+ background-color: orange;
+ margin:23%;
+ margin-top: 20%;
+}
+

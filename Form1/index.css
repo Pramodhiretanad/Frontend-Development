@@ -1,0 +1,90 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+ width: 95%;
+ background-color: aqua;
+ display: flex;
+ padding: 3%;
+}
+.left_main{
+width: 50%;
+background-image: url("/Form1/leaf.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.left_main h1{
+  color:black;
+  background-color: #fff;
+  width: fit-content;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+.right_main{
+ width: 50%;
+ /* height: 100vh; */
+ background-color: white;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+}
+
+.left_main img{
+ width: 100%;
+ height: 100vh;
+ border-bottom-left-radius: 5px;
+ border-top-left-radius: 5px;
+
+}
+label {
+  font-size: 20px;
+    font-weight: 500;
+}
+.Titel{
+ width: fit-content;
+}
+.heading{
+ margin-left: 10%;
+ margin-top: 6%;
+ font-size: 25px;
+ font-weight: 600;
+ margin-bottom: 5%;
+ border-bottom: 1px solid;
+ padding-bottom: 10px;
+ width: fit-content;
+}
+.section{
+ display: flex;
+ justify-content: space-around;
+ padding-top: 3%;
+ padding-bottom: 3%;
+}
+.check1{
+ padding-right:5%;
+}
+.button{
+ padding-top: 5%;
+ padding-left: 50%;
+}
+button{
+ padding: 3% 10%;
+ border-radius: 4px;
+ border: transparent;
+ background-color: blue;
+ color: white;
+ margin-bottom: 5%;
+}
+input{
+  padding: 3%;
+  margin-top: 6%;
+}

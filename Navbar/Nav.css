@@ -1,0 +1,91 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.nav{
+ display: flex;
+ justify-content: space-between;
+ border: 1px solid rgb(222, 243, 221);
+ 
+}
+.left{
+ margin: 10px;
+ margin-left: 60px;
+ border-right: 1px solid rgb(222, 243, 221);
+}
+ul li{
+ list-style-type: none;
+}
+.right{
+ display: flex;
+ align-items: center;
+}
+.right ul{
+ display: flex;
+}
+.right ul li{
+ margin-right: 50px;
+}
+.btn{
+ margin-right: 50px;
+ padding: 5px;
+ background-color: rgb(0, 174, 255);
+ border-radius: 3px;
+ border: transparent;
+}
+.section{
+ display: flex;
+ align-items: center;
+padding-top: 10%;
+ height: 100vh;
+ flex-direction: column;
+ background-color: rgba(232, 232, 232, 0.93);
+}
+.section1{
+ width: 50%;
+ /* display: flex; */
+ text-align: center;
+} 
+.section1 p{
+ margin-top: 5px;
+ margin-bottom: 5px;
+ 
+}
+.section1 button{
+ margin-top: 5px;
+ padding: 10px;
+ border-radius: 3px;
+ background-color: rgb(0, 174, 255);
+ border: transparent;
+}
+.bold{
+ font-size: 35px;
+ font-weight: bold;
+ word-spacing: 4px;
+}
+#second_bold{
+ word-spacing: 2px;
+ font-size: 32px;
+}
+.Box{
+ margin: 50px;
+ gap: 50px;
+ display: flex;
+ justify-content: space-around;
+}
+.Heading{
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.Ipsum{
+ /* margin-left: 90px;
+ margin-top: 20px;  */
+box-shadow: 1px 1px 29px 0px rgba(255,88,59,0.71);
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+}

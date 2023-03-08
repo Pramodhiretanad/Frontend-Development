@@ -1,0 +1,26 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.container{
+ width: 100%;
+ height: 100vh;
+ background-color: aqua;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.middle{
+ display: flex;
+ gap: 20px;
+}
+button{
+ padding: 20px;
+ border-radius: 20px;
+ border: transparent;
+ color: red;
+}
+.value{
+ font-size: 40px;
+}

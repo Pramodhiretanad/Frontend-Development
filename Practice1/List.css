@@ -1,0 +1,69 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ padding: 7px;
+}
+header{
+ display: flex;
+ justify-content: space-between;
+}
+button{
+ border-radius: 5px;
+ border: transparent;
+ padding: 4px;
+}
+.Main{
+ display: flex;
+ height: 55vh;
+ width: 100%;
+ border: 1px solid black;
+ margin: 10px;
+}
+.Employee_List{
+ width: 30%;
+ border: 2px solid black;
+ text-align: center;
+ padding: 4px;
+}
+.List_Header{
+ border-bottom: 1px solid black;
+ padding: 3px;
+}
+.Employee_Name{
+text-align: left;
+margin: 5px 0px;
+background-color:rgb(214, 247, 247);
+padding: 7px;
+border-radius: 4px;
+display: flex;
+justify-content: space-between;
+
+}
+.Employee_Name img{
+ width: 20px;
+}
+.Information{
+ padding: 4px;
+ width: 70%;
+ text-align: center;
+ border: 1px solid black;
+}
+.info {
+ border-bottom: 1px solid black;
+ padding: 4px;
+}
+.profile img{
+ padding: 4px;
+ width: 160px;
+ margin-bottom: 10px;
+}
+.profile p{
+ margin: 25px;
+}
+.scrol{
+ height: 93%;
+ overflow-y: scroll;
+}
