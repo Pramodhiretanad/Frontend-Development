@@ -1,0 +1,106 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.back{
+ width: 100%;
+ height: 100vh;
+ background-color: rgba(15, 7, 7, 0.869);
+}
+
+nav{
+ display: flex;
+ justify-content: space-between;
+ padding: 1px;
+ padding-top: 1%;
+ color: white;
+}
+.bar1{
+ width: 30%;
+ margin-left: 3%;
+}
+.bar1 p{
+ font-family: 'Times New Roman', Times, serif;
+}
+.bar2{
+ width: 30%;
+ display: flex;
+ gap: 10%;
+}
+.bar3{
+ display: flex;
+ gap: 15px;
+ margin-right: 2%;
+}
+ .btn1{
+ background-color: transparent;
+ padding: 7px;
+ border: 1px solid white;
+ border-radius: 18px;
+ color: white;
+ }
+ .btn2{
+  background-color:rgb(1, 60, 255);
+ padding: 7px;
+ border: 1px solid white;
+ border-radius: 18px;
+ color: white;
+ }
+ .section{
+  width: 100%;
+  padding-top: 4%;
+ }
+ p5{
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 30%;
+  color: lightskyblue;
+  word-spacing: 10px;
+ }
+ .section p3{
+  color: white;
+  margin-left: 37%;
+  margin-top: 2%;
+ }
+.section p4{
+ margin-left: 40%;
+ color: white;
+ /* padding-top: 10px; */
+ padding: 2%;
+}
+
+.btn3{
+ background-color:rgb(1, 60, 255);
+ padding: 7px;
+ border: 1px solid white;
+ border-radius: 18px;
+ color: white;
+ margin-left: 45%;
+ margin-top: 2%;
+}
+.btn4{
+ background-color:rgb(1, 60, 255);
+ padding: 7px;
+ border: 1px solid white;
+ border-radius: 18px;
+ color: white;
+}
+input{
+ margin-top: 2%;
+  background-color: transparent;
+  margin-left: 37%;
+ padding: 1%;
+ padding-right: 8%;
+ border: 1px solid white;
+ border-radius: 18px;
+ color: white;
+}
+button{
+ background-color:rgb(1, 60, 255);
+ padding: 13px;
+ border: 1px solid white;
+ border-radius: 18px;
+ color: white;
+}
