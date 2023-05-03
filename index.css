@@ -1,0 +1,140 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.main{
+ width: 100%;
+ height: 100vh;
+ background-image: url(1.jpg);
+ background-size: cover;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+}
+.nav1{
+ width: 70%;
+ display: flex;
+ gap: 7%;
+ /* color: white; */
+}
+h1{
+ padding: 2%;
+margin-left: 5%;
+ color: orange;
+}
+ul{
+ list-style: none;
+ display: flex;
+ gap: 30%;
+ color: white;
+ align-items: center;
+}
+.search{
+ width: 30%;
+ display: flex;
+ align-items: center;
+ /* margin-right: 7%; */
+ padding-left: 5%;
+}
+button{
+ background-color: orangered;
+ padding: 5px 20px;
+ border-radius: 3px;
+ color: white;
+}
+input{
+ background-color: transparent;
+ border: .9px solid orangered;
+ padding: 1%;
+ border-radius: 3px;
+}
+.section{
+ display: flex;
+ /* justify-content: space-between; */
+}
+.section1{
+ color: white;
+ /* margin-top: 2px; */
+ width: 50%;
+ margin-left: 10%;
+ margin-top: 5%;
+
+}
+p{
+ font-size: 50px;
+ font-weight: bold;
+  font-family:;
+}
+p1{
+ color: orangered;
+ font-size: 30px;
+ font-weight: bold;
+ word-spacing: 5px;
+ margin-top: 5%;
+ 
+}
+p2{
+ 
+ font-size: 12px;
+ margin-top: 5%;
+}
+.section1 button{
+ margin-top: 20px;
+ border: transparent;
+}
+.section2{
+ width: 45%;
+ margin-left: 10%;
+ margin-top: 5%;
+}
+.login{
+ width: 50%;
+ background-color: black;
+ border-radius: 7px;
+}
+.here{
+ margin-left: 15%;
+ margin-top: 5%;
+ background-color: beige;
+ padding: 5px 60px;
+ color: rgb(241, 110, 3);
+}
+.login input{
+ padding: 5%;
+ margin-left: 15%;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+}
+.btn{
+ margin-top: 5%;
+ margin-left: 15%;
+ background-color: rgb(250, 140, 6);
+ padding: 5px 75px;
+ color: rgb(16, 16, 15);
+}
+.sign{
+ color: white;
+ /* padding: 5%; */
+ margin-top: 10%;
+ margin-left: 25%;
+}
+ p3{
+ font-size: 15px;
+}
+p4{
+ font-size: 20px;
+ color: orangered;
+ margin-left: 8%;
+}
+p6{
+ margin-top: 10%;
+ font-size: 15px;
+ margin-left: 13%;
+}
+.img{
+ margin-top: 5%;
+ margin-left: 5%;
+}
